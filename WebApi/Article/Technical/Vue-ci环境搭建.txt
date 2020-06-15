@@ -1,0 +1,26 @@
+1． 安装VS Code <a> https://code.visualstudio.com </a>
+2． 安装Node.JS <a> http://nodejs.cn</a>
+3． 全局安装vue-cli（Vue脚手架）
+	a) 安装命令 ：npm 	install -g vue-cli
+	b) 打开VS Code 终端 --> 输入命令 -->	回车 -->等待安装完成
+4． 安装 WebPack（打包JS的工具）
+	a) 安装命令：npm install -g webpack
+	b) 方法如上
+5． 创建Vue项目，
+	a) 创建文件夹存放项目
+	b) VS Code 打开文件夹
+	c) 终端使用命令访问到相应文件夹
+	d) 输入创建项目命令：vue init webpack ******（*****为你的项目名称）
+	e) 回车之后会出现一些配置项 根据自己需要选择
+	f) 等待安装完依赖项
+	g) 安装完成后 在项目文件中main.js为入口
+6． 运行项目
+	a) 使用终端访问到对应文件夹
+	b) 输入命令：npm run dev
+	c) 成功之后 会有一个地址（默认为 http://localhost:8080）
+	d) 在浏览器中输入对应地址
+	e) 出现“Welcome to Your Vue.js App“ 页面 则创建成功
+7． 项目打包
+	a) 终端访问到对应文件夹
+	b) 输入命令：npm  run build
+	c) 完成后项目文件夹会出现一个dist文件夹 里面为打包完成的项目 可直接部署
